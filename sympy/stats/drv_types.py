@@ -152,7 +152,7 @@ def FlorySchulz(name, a):
     r"""
     Create a discrete random variable with a FlorySchulz distribution.
 
-    The density of the FlorySchulz distribution is given by
+    The density of the FlorySchulz distribution is given by:
 
     .. math::
         f(k) := (a^2) k (1 - a)^{k-1}
@@ -225,7 +225,7 @@ def Geometric(name, p):
     Explanation
     ===========
 
-    The density of the Geometric distribution is given by
+    The density of the Geometric distribution is given by:
 
     .. math::
         f(k) := p (1 - p)^{k - 1}
@@ -310,7 +310,7 @@ def Hermite(name, a1, a2):
     Explanation
     ===========
 
-    The density of the Hermite distribution is given by
+    The density of the Hermite distribution is given by:
 
     .. math::
         f(x):= e^{-a_1 -a_2}\sum_{j=0}^{\left \lfloor x/2 \right \rfloor}
@@ -390,7 +390,7 @@ def Logarithmic(name, p):
     Explanation
     ===========
 
-    The density of the Logarithmic distribution is given by
+    The density of the Logarithmic distribution is given by:
 
     .. math::
         f(k) := \frac{-p^k}{k \ln{(1 - p)}}
@@ -472,7 +472,7 @@ def NegativeBinomial(name, r, p):
     Explanation
     ===========
 
-    The density of the Negative Binomial distribution is given by
+    The density of the Negative Binomial distribution is given by:
 
     .. math::
         f(k) := \binom{k + r - 1}{k} (1 - p)^r p^k
@@ -548,7 +548,7 @@ def Poisson(name, lamda):
     Explanation
     ===========
 
-    The density of the Poisson distribution is given by
+    The density of the Poisson distribution is given by:
 
     .. math::
         f(k) := \frac{\lambda^{k} e^{- \lambda}}{k!}
@@ -636,7 +636,7 @@ def Skellam(name, mu1, mu2):
     of two statistically independent random variables N1 and N2
     each Poisson-distributed with respective expected values mu1 and mu2.
 
-    The density of the Skellam distribution is given by
+    The density of the Skellam distribution is given by:
 
     .. math::
         f(k) := e^{-(\mu_1+\mu_2)}(\frac{\mu_1}{\mu_2})^{k/2}I_k(2\sqrt{\mu_1\mu_2})
@@ -718,7 +718,7 @@ def YuleSimon(name, rho):
     Explanation
     ===========
 
-    The density of the Yule-Simon distribution is given by
+    The density of the Yule-Simon distribution is given by:
 
     .. math::
         f(k) := \rho B(k, \rho + 1)
@@ -791,7 +791,7 @@ def Zeta(name, s):
     Explanation
     ===========
 
-    The density of the Zeta distribution is given by
+    The density of the Zeta distribution is given by:
 
     .. math::
         f(k) := \frac{1}{k^s \zeta{(s)}}
